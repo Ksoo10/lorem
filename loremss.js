@@ -4,11 +4,10 @@
 const tagOptions = [
     "p", "h1", "h2", "h3", "h4", "h5", "h6", "span"
 ];
-
 // Array of tag lanes
 
 // Grabs the DOM Elements
-const optionsContainer = document.querySelector(".options"); // Corrected class name
+const optionsContainer = document.querySelector(".container-wrapper");
 const outputContainer = document.querySelector(".output");
 // Targets the Select input for the tags
 const tagsSelect = document.getElementById("tags");
@@ -21,7 +20,7 @@ const paragraphValue = document.getElementById("paragraphsValue");
 const wordsValue = document.getElementById("wordsValue");
 
 // Initialize the generate button
-const generateButton = document.getElementById("generate"); // Added this missing element reference
+const generateButton = document.getElementById("generate"); 
 
 // Create Options UI
 function createOptionsUI() {
