@@ -4,6 +4,7 @@
 const tagOptions = [
     "p", "h1", "h2", "h3", "h4", "h5", "h6", "span"
 ];
+
 // Array of tag lanes
 
 // Grabs the DOM Elements
@@ -16,11 +17,11 @@ const paragraphsSlider = document.getElementById("paragraph");
 // Target the slider for words per paragraph
 const wordsSlider = document.getElementById("words");
 
-const paragraphValue = document.getElementById("paragraphsValue");
+const paragraphValue = document.getElementById("paragraphValue");
 const wordsValue = document.getElementById("wordsValue");
 
 // Initialize the generate button
-const generateButton = document.getElementById("generate"); 
+const generateButton = document.getElementById("generate");
 
 // Create Options UI
 function createOptionsUI() {
@@ -104,3 +105,4 @@ function displayLoremIpsum(text) {
 
 // Initialize the app
 createOptionsUI();
+
